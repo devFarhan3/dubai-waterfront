@@ -252,11 +252,11 @@ body {
     height: 50px;
     text-align: center;
     border-radius: 4px;
+    border-radius: 50%;
     position: fixed;
-    bottom: 30px;
-    left: 30px;
-    transition: background-color .3s,
-        opacity .5s, visibility .5s;
+    bottom: 60px;
+    left: 14px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000000;
@@ -675,9 +675,8 @@ form .error {
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:60px
-    ;
-	right:40px;
+	bottom:60px;
+	right:14px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
